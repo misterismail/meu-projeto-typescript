@@ -5,3 +5,7 @@ interface Produto {
 }
 
 type FormaPagamento = 'dinheiro' | 'cartão' | 'pix';
+
+function teste(): string {
+    return `${Produto.nome}`
+}
