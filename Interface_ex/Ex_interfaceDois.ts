@@ -7,7 +7,7 @@ type Empregado = {
     salario: number;
 }
 
-type Funcionario = Pessoa & Empregado;
+type Contratado = Pessoa & Empregado;
 
 function Contrato(pessoa: Pessoa, empregado: Empregado): string {
     return `Nome: ${pessoa.nome}, Idade: ${pessoa.idade}, Empresa: ${empregado.empresa}, Salario: ${empregado.salario}`
